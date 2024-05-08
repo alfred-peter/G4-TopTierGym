@@ -1,23 +1,9 @@
-import './App.css';
-import Header from './components/Header';
-import Testimonials from './components/Testimonials'
-import Home from './components/Home'
-import Plans from './components/Plans'
-
-
-
-
+import React from 'react'
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Home/>
-      <Plans/>
-     <Testimonials/>
-    
-    </div>
-  );
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App

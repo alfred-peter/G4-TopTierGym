@@ -5,7 +5,7 @@
     margin-top: -1 2rem;
     gap: 4rem;
     position: relative;
-}
+    }
 .Heading{
     font-size: 3rem;
     font-weight: bold;
@@ -18,32 +18,40 @@
     align-items: center;
     justify-content: center;
     gap: 7rem;
+    
 }
 .plan{
     display: flex;
     flex-direction: column;
     background: var(--caloryCard);
-    color: white;
+    color: rgb(20, 20, 20);
     gap: 2rem;
     padding: 2rem;
     width: 20rem;
+    border: solid blue;
+    background-image: linear-gradient(0deg, rgb(90, 90, 90), rgb(255, 255, 0));
 }
 .plan:nth-child(2){
     background: var(--planCard);
     transform: scale(1.18);
+    background-image: linear-gradient(90deg, blue, yellow)
 }
 .plan>svg{
     color: var(--planCard);
     width: 2rem;
     height: 2rem;
+    
 }
 .plan>:nth-child(2){
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 .plan>:nth-child(3){
     font-size: 3rem;
     font-weight: bold;
+    
+    
 }
 .plan>:nth-child(4){
     font-size: 1.2rem;
