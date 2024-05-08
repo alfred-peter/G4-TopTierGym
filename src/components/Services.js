@@ -1,21 +1,25 @@
 import React from 'react'
 import './Services.css'
-import {programsData} from '../ServicesData'
+import { ServicesData } from './data/ServicesData'
+import RightArrow from '../assets/rightArrow.png'
 
 function Services() {
   return (
     <div className='programs' id="programs">
 
         <div className='programs-header'>
-        <span>Services offered</span>
+        <span className='stroketext'>Services </span>
+          <span>offered</span>
         </div>
 
         <div className='programs-categories'>
-          {programsData.map ((program)=>(
+          {ServicesData.map ((services)=>(
             <div className='category'>
-              {program.image}
-              <span>{program.heading}</span>
-              <span>{program.details}</span>
+              {services.image}
+              <span>{services.heading}</span>
+              <span>{services.details}</span>
+              <div className='join-now'> <span>Join Now</span><img src={RightArrow} alt='arrow'></img>
+              </div>
             </div>
           ))}
         </div>
