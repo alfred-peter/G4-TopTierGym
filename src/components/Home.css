@@ -38,7 +38,7 @@
 
 .thebestclub div {
     position: absolute;
-    background-color: orange;
+    background-color:rgb(255, 195, 42);
     width: 100px;
     height: 80%;
     left: 8px;
@@ -96,7 +96,7 @@
 
 .homebuttons :nth-child(1){
     color: white;
-    background-color: orange;
+    background-color: rgb(255, 195, 42);
     width: 132px;
 }
 

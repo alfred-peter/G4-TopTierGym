@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import Header from './Header'
 import Heart from '../../src/assets/heart.png'
 import Athlete from '../../src/assets/home.png'
 import Backpage from '../../src/assets/backpage.png'
@@ -9,8 +8,10 @@ import Calories from '../../src/assets/calories.png'
 function Home() {
     return (
         <div className='home'>
+          
+        
             <div className='lefthome'>
-                <Header />
+                
 
                 <div className='thebestclub'>
                     <div></div>

@@ -9,7 +9,7 @@ function Header() {
 
         <ul className='navbar'>
             <li>Home</li>
-            <li>Programs</li>
+            <li>Services</li>
             <li>Why us?</li>
             <li>Plans</li>
             <li>Testimonials</li>

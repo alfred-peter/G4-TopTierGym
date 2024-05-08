@@ -9,7 +9,7 @@ function Services() {
 
         <div className='programs-header'>
         <span className='stroketext'>Services </span>
-          <span>offered</span>
+          <span>Offered</span>
         </div>
 
         <div className='programs-categories'>

@@ -13,6 +13,12 @@ const Footer = () => {
 
         <div className="rightFooter">
             <h4>Follow Us:</h4>
+            <div className="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+
+            </div>
         </div>
     </footer>
   )

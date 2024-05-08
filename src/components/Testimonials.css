@@ -2,6 +2,7 @@
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
+    margin-top: 200px;
 }
 .left-t{
     display: flex;
@@ -9,21 +10,22 @@
     gap: 2rem;
     flex-direction: column;
     text-transform: uppercase;
-    color: white;
-}
-.left-t>:nth-child(1){
-    font-weight: bold;
-    color: var(--orange);
+    color: rgb(31, 27, 223);
 }
 .left-t>:nth-child(2),.left-t>:nth-child(3){
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: rgb(220, 223, 37);
+    text-shadow: 2px 2px 5px rgb(38, 0, 255);
 }
 .left-t>:nth-child(4){
-    text-transform: none;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 40px;
+    text-transform: uppercase;
+    color: rgb(36, 33, 33);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .right-t{
     flex: 1;
@@ -42,7 +44,7 @@
     width: 17rem;
     height: 20rem;
     border: 2px solid rgb(0, 204, 255);
-    background-color: transparent;
+    background-color: blue;
     right: 9rem;
     top: 0.9rem;
 }
@@ -53,6 +55,7 @@
     right: 6rem;
     background: var(--planCard);
     top: 4rem;
+  
 }
 .arrow{
     display: flex;
@@ -60,8 +63,10 @@
     position: absolute;
     bottom: 1rem;
     left: 3rem;
+    
 }
 .arrow>img{
     cursor: pointer;
     width: 1.5rem;
+   
 }
