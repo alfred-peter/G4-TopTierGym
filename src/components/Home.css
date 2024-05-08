@@ -1,0 +1,188 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lefthome{
+    padding: 30px;
+    padding-top: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.righthome{
+    flex: 1;
+    position: relative;
+    background-color: navy;
+}
+
+.thebestclub{
+    margin-top: 70px;
+    background-color: #363d42;
+    width:fit-content;
+    border-radius: 64px;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.thebestclub span{
+    z-index: 2;
+}
+
+.thebestclub div {
+    position: absolute;
+    background-color: orange;
+    width: 100px;
+    height: 80%;
+    left: 8px;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.gymtext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: bold;
+    text-overflow: inherit;
+
+
+}
+
+.motivationtext{
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figures{
+    display: flex;
+    gap: 36px;
+}
+
+.figures div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures div span:first-of-type{
+    color: white;
+    font-size: 36px;
+
+
+}
+
+.figures div span:nth-of-type(2){
+    color: black;
+    text-transform: uppercase;
+}
+
+.homebuttons{
+    display: flex;
+    font-weight: normal;
+    gap: 20px;
+}
+
+.homebuttons :nth-child(1){
+    color: white;
+    background-color: orange;
+    width: 132px;
+}
+
+.homebuttons :nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 132px;
+    border: 4px orange;
+}
+
+.righthome .btn{
+    position: absolute;
+    right: 52px; top: 36px; color: black;
+
+}
+
+.heartrate{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: darkgray;
+    width: fit-content;
+    padding: 20px;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 66px;
+    top: 126px;
+}
+
+.heartrate :nth-child(1){
+    width: 36px;
+}
+
+.heartrate :nth-child(2){
+    color: white;
+  
+}
+
+.heartrate :nth-child(3){
+    color: white;
+    font-size: 24px;
+}
+
+.homeimage{
+    position: absolute;
+    right:160px ;
+    top: 128px;
+    width: 368px;
+}
+
+.backpage{
+    position: absolute;
+    top: 64px;
+    right: 320px;
+    z-index: -1;
+    width: 240px;
+}
+
+.calories{
+    display: flex;
+    gap: 32px;
+    background-color: #89CFF0;
+    border-radius: 5px;
+    padding: 16px;
+    width: fit-content;
+    position: absolute;
+    top: 562px;
+    right: 488px;
+}
+
+.calories img{
+    width: 48px;
+}
+
+.calories div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories div span:first-of-type{
+    color: white;
+}
+
+.calories div span:nth-of-type(2){
+    color: black;
+    font-size: 24px;
+}
