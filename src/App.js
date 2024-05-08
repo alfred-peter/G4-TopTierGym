@@ -6,6 +6,7 @@ import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 import Plans from './components/Plans'
 import Footer from './components/Footer';
+import JoinUs from './components/JoinUs';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <WhyUs/>
       <Plans/>
      <Testimonials/>
+     <JoinUs/>
      <Footer/>
 
     </div>
