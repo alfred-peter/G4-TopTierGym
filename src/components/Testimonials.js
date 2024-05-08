@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Testimonails.css";
-import {testimonialsData} from "../../data/testimonialsData"
+import "./Testimonials.css";
+import {testimonialsData} from "../components/data/testimonialsData"
 import { useState } from "react";
-import leftArrow from "../../assets/leftArrow.png";
-import rightArrow from "../../assets/rightArrow.png";
+import leftArrow from "../assets/leftArrow.png"
+import rightArrow from "../assets/rightArrow.png";
 const Testimonials = () => {
     const [selected, setSelected] = useState(0);
     const tLength = testimonialsData.length;
@@ -32,11 +32,11 @@ const Testimonials = () => {
             <div className='arrow'>
                 <img onClick={()=>{
                     selected===0?setSelected(tLength-1):
-                    setSelected((prev)=>prev-1);
+                    setSelected((previous)=>previous-1);
                 }} src={leftArrow} alt=""/>
                 <img onClick={()=>{
                     selected=== tLength-1 ?setSelected(0):
-                    setSelected((prev)=>prev+1);
+                    setSelected((previous)=>previous+1);
                 }} src={rightArrow} alt=""/>
             </div>
         </div>
