@@ -7,7 +7,7 @@ import image3 from '../assets/tredmil.jpg';
 
 function WhyUs() {
     return (
-        <div className='reasons-container' id='reasons-container'>
+        <div className='reasons-container' id='whyus'>
               
             <div className='left-r'>
                 <img src={image1} alt='ladies' />

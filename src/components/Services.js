@@ -5,7 +5,7 @@ import RightArrow from '../assets/rightArrow.png'
 
 function Services() {
   return (
-    <div className='programs' id="programs">
+    <div className='programs' id="services">
 
         <div className='programs-header'>
         <span className='stroketext'>Services </span>

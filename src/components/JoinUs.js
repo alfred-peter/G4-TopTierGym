@@ -20,7 +20,7 @@ const JoinUs = () => {
     };
 
     return (
-        <div className='Join' id='join-us'>
+        <div className='Join' id='whyus'>
             <div className='left-j'>
                 <hr/>
                 <div>

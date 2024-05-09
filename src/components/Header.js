@@ -1,24 +1,23 @@
-import React from 'react'
-import './Header.css'
-import Logo from '../assets/logo.jpeg' 
+import React from 'react';
+import './Header.css';
+import Logo from '../assets/logo.jpeg';
+
+
 function Header() {
   return (
     <div className='header'>
-
-        <img src={Logo} alt='' className='logo' />
-
-        <ul className='navbar'>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Why us?</li>
-            <li>Plans</li>
-            <li>Testimonials</li>
-
-        </ul>
-
-
+      <img src={Logo} alt='' className='logo' />
+      <ul className='navbar'>
+      <ul className='navbar'>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#whyus">Why US?</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+      </ul>
     </div>
-  )
+  );
 }
 
 export default Header;

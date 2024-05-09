@@ -4,17 +4,28 @@ import Heart from '../../src/assets/heart.png'
 import Athlete from '../../src/assets/home.png'
 import Backpage from '../../src/assets/backpage.png'
 import Calories from '../../src/assets/calories.png'
+import {motion} from 'framer-motion'
+
+
 
 function Home() {
+    const transition={type: 'spring',duration:3}
     return (
-        <div className='home'>
+        <div className='home' id='home'>
           
         
             <div className='lefthome'>
                 
 
                 <div className='thebestclub'>
-                    <div></div>
+                    <motion.div 
+                    initial={{left:'238px'}}
+                    whileInView={{left:'8px'}} 
+                    transition={transition}
+                        
+                    >
+                    </motion.div>
+                    
                     <span>The Best fitness club In Town</span>
                 </div>
 
@@ -63,22 +74,29 @@ function Home() {
             <div className='righthome'>
                 <button className='btn'> Join Now</button>
 
-                <div className='heartrate'>
+                <motion.div
+                initial={{right:'-1rem'}}
+                whileInView={{right:'4rem'}}
+                transition={transition}
+                className='heartrate'>
                     <img src={Heart} alt='' className='' />
                     <span>Heart Rate</span>
                     <span>116 bpm</span>
-                </div>
+                </motion.div>
 
                 <img src={Athlete} alt='' className='homeimage' />
                 <img src={Backpage} alt='' className='backpage' />
 
-                <div className='calories'>
+                <motion.div className='calories'
+                initial={{right:'37rem'}}
+                whileInView={{right:'88rem'}}
+                transition={transition}>
                     <img src={Calories} alt='' />
                     <div>
                     <span>CaloriesBurnt</span>
                     <span>200 kcal</span>
                     </div>
-                </div>
+                </motion.div>
 
 
 
