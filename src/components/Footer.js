@@ -14,9 +14,9 @@ const Footer = () => {
         <div className="rightFooter">
             <h4>Follow Us:</h4>
             <div className="icons">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+            <a href='https://www.instagram.com/'><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/gitaunthama"><i class="fa-brands fa-github"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
 
             </div>
         </div>
