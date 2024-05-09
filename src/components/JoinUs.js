@@ -16,7 +16,7 @@ const JoinUs = () => {
                 () => {
                     console.log('SUCCESS!');
                     alert ('Your registration was successful!');
-                    setSuccessMessage('Your registration was successful!');
+                    setSuccessMessage('Your registration was successful!, confirmation sent To adnminstrator ');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
