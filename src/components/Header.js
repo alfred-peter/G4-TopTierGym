@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Logo from '../assets/logo.jpeg';
+import Logo from '../assets/logo-fotor-bg-remover-202405091873.png';
 
 
 function Header() {

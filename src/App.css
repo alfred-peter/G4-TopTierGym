@@ -7,7 +7,8 @@
 }
 
 .App{
-    background-color: #89CFF0;
+    /* background-color: #89CFF0; */
+    background-image: linear-gradient(to bottom right, #89CFF0, rgba(255, 255, 0, 0.555),#89CFF0,#89CFF0);
 }
 
 .btn{

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Heart from '../../src/assets/heart.png'
-import Athlete from '../../src/assets/home.png'
+import Athlete from '../../src/assets/athlete-fotor-bg-remover-20240509173244.png'
 import Backpage from '../../src/assets/backpage.png'
 import Calories from '../../src/assets/calories.png'
 import {motion} from 'framer-motion'

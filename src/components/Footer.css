@@ -1,7 +1,7 @@
 footer {
     margin-top: 10vmax;
     padding: 2vmax;
-    background-image: linear-gradient(90deg, #89CFF0, lightgray);
+    background-image: linear-gradient(90deg, rgb(100, 94, 94),#cdd5d8, rgb(100, 94, 94));
     color: rgb(22, 22, 22);
     font-size: 20px;
     display: flex;
@@ -16,10 +16,10 @@ footer {
   .midFooter > h1 {
     font-size: 4vmax;
     font-family: "Roboto";
-    color: rgb(127, 139, 209)
+    color: rgb(11, 39, 196)
   }
   .midFooter > a:hover {
-    color: rgb(192, 197, 181);
+    color: rgb(21, 32, 194);
   }
   .midFooter > p {
     max-width: 60%;
@@ -53,6 +53,6 @@ footer {
   }
   i{
     font-size: 50px;
-    color: rgb(127, 139, 209);
+    color: rgb(51, 76, 214);
     margin-left: 40px;
   }

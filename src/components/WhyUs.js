@@ -11,7 +11,9 @@ function WhyUs() {
     useEffect(() => {
         const fetchCoaches = async () => {
             try {
-                const response = await fetch('http://localhost:3000/Coaches');
+                const response = await fetch('http://localhost:3000/Coaches', 
+                {method:'Get'});
+                
                 if (!response.ok) {
                     throw new Error('Failed to fetch coaches data');
                 }

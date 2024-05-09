@@ -4,7 +4,7 @@ import { ServicesData } from './data/ServicesData';
 import RightArrow from '../assets/rightArrow.png';
 
 function Services() {
-  const [ setSelectedService] = useState(null);
+  const [ ,setSelectedService] = useState(null);
 
   const handleJoinNow = (service) => {
     setSelectedService(service);

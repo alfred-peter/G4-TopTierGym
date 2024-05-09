@@ -143,9 +143,11 @@
 
 .homeimage{
     position: absolute;
-    right:160px ;
+    right:10px ;
     top: 128px;
-    width: 368px;
+    width: 488px;
+    height: 350px;
+    
 }
 
 .backpage{
