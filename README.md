@@ -6,7 +6,7 @@
  [Grace Gitau](https://github.com/gitaunthama/Personal-Porfolio.git) <br>
 [Alfred Kilonzo](https://github.com/alfred-peter/myportfolio)<br>
 [Alvin Kyle](https://github.com/alvinKyle/Web-Portfolio)<br>
-[Victor Kuria]()<br>
+[Victor Kuria](https://github.com/Waramavictor/MYPORTFOLIO.git)<br>
 
 
 ## Description
@@ -30,7 +30,7 @@ You use git clone to be able to download the documents in the GitHub and work wi
 Git
 
 ### Installation instructions
-Git clone  
+Git clone  git@github.com:gitaunthama/G4-TopTierGym.git
 
 # Live Link
 [Git]()
