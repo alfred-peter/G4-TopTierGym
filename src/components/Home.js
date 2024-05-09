@@ -5,6 +5,7 @@ import Athlete from '../../src/assets/home.png'
 import Backpage from '../../src/assets/backpage.png'
 import Calories from '../../src/assets/calories.png'
 import {motion} from 'framer-motion'
+import NumberCounter from 'number-counter'
 
 
 
@@ -49,15 +50,15 @@ function Home() {
                 </div>
                 <div className='figures'>
                     <div>
-                        <span>+170</span>
+                        <span><NumberCounter end={180} start={110} delay='7' preFix="+"/></span>
                         <span>Expert coaches</span>
                     </div>
                     <div>
-                        <span>+1322</span>
+                        <span><NumberCounter end={1400} start={1000} delay='7' preFix="+"/></span>
                         <span>Members Joined</span>
                     </div>
                     <div>
-                        <span>+75</span>
+                        <span><NumberCounter end={80} start={20} delay='7' preFix="+"/></span>
                         <span>Fitness Programs</span>
                     </div>
 
@@ -81,7 +82,7 @@ function Home() {
                 className='heartrate'>
                     <img src={Heart} alt='' className='' />
                     <span>Heart Rate</span>
-                    <span>116 bpm</span>
+                    <span><NumberCounter end={114} start={20} delay='7' suffic="bpm" /></span>
                 </motion.div>
 
                 <img src={Athlete} alt='' className='homeimage' />

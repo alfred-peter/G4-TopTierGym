@@ -61,3 +61,11 @@
     gap: 2rem;
 
 }
+.service-btn{
+    width: 5rem;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: blanchedalmond;
+}

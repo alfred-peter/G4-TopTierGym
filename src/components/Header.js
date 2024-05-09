@@ -13,6 +13,7 @@ function Header() {
         <li><a href="#services">Services</a></li>
         <li><a href="#whyus">Why US?</a></li>
         <li><a href="#plans">Plans</a></li>
+        <li><a href="#joinus">Join Us</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
       </ul>

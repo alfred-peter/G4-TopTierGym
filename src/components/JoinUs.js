@@ -1,9 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import "./JoinUs.css";
 import emailjs from 'emailjs-com';
+import { plansData } from './data/plansData'; 
+import { ServicesData } from './data/ServicesData'; 
 
 const JoinUs = () => {
     const form = useRef();
+    const [successMessage, setSuccessMessage] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -12,31 +15,46 @@ const JoinUs = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    alert ('Your registration was successful!');
+                    setSuccessMessage('Your registration was successful!');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
-                },
+                    setSuccessMessage('Failed to register. Please try again.');
+                }
             );
     };
 
     return (
-        <div className='Join' id='whyus'>
+        <div className='Join' id='joinus'>
             <div className='left-j'>
-                <hr/>
+                <hr />
                 <div>
-                    <span className='stroke-text'>READY TO </span>
+                    <span className='stroketext'>READY TO </span>
                     <span>LEVEL UP </span>
                 </div>
                 <div>
                     <span>YOUR BODY </span>
-                    <span className='stroke-text'>WITH US?! </span>
+                    <span className='stroketext'>WITH US?! </span>
                 </div>
             </div>
             <div className='right-j'>
                 <form ref={form} className='Email-container' onSubmit={sendEmail}>
-                    <input type="email" name='user_email' placeholder='Enter your Email To Join' />
+                    <input type="text" name='user_name' placeholder='Your Name' />
+                    <input type="email" name='user_email' placeholder='Your Email' />
+                    <select name='service'>
+                        {ServicesData.map((service, index) => (
+                            <option key={index} value={service.heading}>{service.heading}</option>
+                        ))}
+                    </select>
+                    <select name='payment_plan'>
+                        {plansData.map((plan, index) => (
+                            <option key={index} value={plan.name}>{plan.name}</option>
+                        ))}
+                    </select>
                     <button className='btn btn-j'>Join Now</button>
                 </form>
+                {successMessage && <p>{successMessage}</p>}
             </div>
         </div>
     );

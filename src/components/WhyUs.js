@@ -21,6 +21,7 @@ function WhyUs() {
                <h3 className='stroketext'>Why Choose Us</h3> 
 
              <p className='paragraph'> 1. Over 50+ expert coaches</p>
+             <span><button className='coaches'>See Main Coaches</button></span>
             <p className='paragraph'> 2. Train faster and smater than before</p>
             <p className='paragraph'> 3. 1 free program for a new member</p>
             <p className='paragraph'> 4. Reliable Partners</p>  

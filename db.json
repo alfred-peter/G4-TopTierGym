@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Jamal Smith",
+      "quote": "Success is a journey, not a destination.",
+      "image": "jamal-smith.jpg"
+    },
+    {
+      "id": 2,
+      "name": "LaKeisha Johnson",
+      "quote": "Dream big and dare to fail.",
+      "image": "lakeisha-johnson.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Malik Davis",
+      "quote": "Believe you can and you're halfway there.",
+      "image": "malik-davis.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Shaniqua Thompson",
+      "quote": "Your limitation—it's only your imagination.",
+      "image": "shaniqua-thompson.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tyrone Jackson",
+      "quote": "The harder you work, the luckier you get.",
+      "image": "tyrone-jackson.jpg"
+    }
+  ]
+  
